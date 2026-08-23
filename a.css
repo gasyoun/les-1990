@@ -1,0 +1,217 @@
+@media print {
+a { color: black; text-decoration: none }
+}
+
+body { margin: 8px }
+
+p { hyphens: auto }
+
+h1 { text-align: center; text-transform: uppercase; font-size: 130%; color: #007400 }
+
+h2, h3, h4, h5 { text-align: center }
+
+em { font-style: normal; letter-spacing: 0.2em }
+
+div.bookhead h1 { font-size: 220% }
+
+div.body p { text-align: justify; text-indent: 1.5em; line-height: 140% }
+
+div.body p.podpisj { text-align: right; margin-right: 3em; font-style: italic }
+
+div.body p.podpisj + p, div.body p.podpisj + h3 { padding-top: 1.5em; margin-top: 1.5em; border-top: solid 1px }
+
+div.body p.cont { text-indent: 0 }
+
+div.body p.break { text-indent: 1.5em }
+
+.newsection { margin-top: 3em }
+
+
+p.overhead, p.overhead2, p.overhead3, p.overhead4, p.overhead5, div.overhead2 p { font-size: 90% }
+
+p.overhead, p.overhead3 { text-align: center; text-transform: uppercase }
+
+p.overhead3, p.overhead5 { letter-spacing: 0.2em }
+
+p.overhead2, div.overhead2 p { text-align: justify }
+
+p.overhead4, p.overhead5 { text-align: center }
+
+p.overhead2 span.up, p.overhead4 span.up, div.overhead2 span.up, span.boldup { text-transform: uppercase }
+
+
+sub, sup { font-size: 70% }
+
+div.navigation p { text-align: center }
+
+p.navigation { text-align: center; border-top: solid 1px; border-bottom:
+solid 1px; margin-top: 1em; margin-bottom: 1em; padding-top: 1em;
+padding-bottom: 1em; font-size: 90% }
+
+div.body h2 + p { text-indent: 0 }
+
+
+div.body p.a { text-indent: 0; text-align: center; overflow: auto }
+
+div.body p.caption, div.body p.caption2, div.body p.imgcaption { text-indent: 0; text-align: center }
+
+div.body p.caption, div.body p.caption2, div.body p.imgcaption, div.caption { font-size: 90% }
+
+div.caption { margin-left: 10%; margin-right: 10% }
+
+div.body p.caption2 { padding-bottom: 2em; margin-bottom: 2em; border-bottom: solid 1px }
+
+div.body p.imgcaption { text-transform: uppercase; margin-bottom: 0 }
+
+div.body p.imgcaption + p.a { margin-top: 0 }
+
+
+.razri { letter-spacing: 0.2em; font-style: italic }
+
+ul.lit, ul.lenin { padding-top: 1.5em; margin-top: 1.5em; border-top: solid 1px }
+
+ul.lenin { list-style-type: square }
+
+li.litnext { margin-top: 1.5em }
+
+ul.alist li, ul.dlist li, ul.alist > li, ul.blist > li { margin-top: 0.1em; margin-bottom: 0.1em }
+
+ul.alist > li { font-weight: bold }
+
+ul.blist > li { letter-spacing: 0.2em }
+
+div.clist p, td.clist p { margin-top: 0; margin-bottom: 0; margin-left: 3em; text-indent: -1.5em; text-align: left }
+
+div.clist p.newletter { margin-top: 1em }
+
+div.clist p.newletter:first-letter { font-weight: bold }
+
+.lower { text-transform: none }
+
+.noit { font-style: normal }
+
+p.tocline { background: #E0E0E0; text-align: center }
+
+img.ramka { border: solid 1px }
+
+
+table { font-size: 100% }
+
+table.a { border: solid 2px; padding: 1em; margin-left: auto;
+margin-right: auto }
+
+table.b, table.d, table.e { border: solid 2px; padding: 1em; margin-left: auto;
+margin-right: auto; border-collapse: collapse }
+
+table.a td.a, table.a td.b { font-size: 150%; padding-left: 1.5em; padding-right: 1.5em }
+
+table.a td.a, table.b td.a { text-align: left }
+
+table.b td.a { padding-left: 1em }
+
+table.a td.b { text-align: center; padding-right: 1em }
+
+table.b td, table.b th, table.d th, table.e td { border: solid 1px; padding: 0.2em }
+
+table.b td, table.b th, table.d th { text-align: center }
+
+table.e th { text-align: center; border: solid 2px }
+
+table.e td { text-align: left }
+
+table.b th, table.d th { border-bottom: solid 2px; font-size: 70%; font-weight: normal }
+
+table.b td.b { font-size: 150% }
+
+table.d td { border-left: solid 1px; border-right: solid 1px; text-align: center }
+
+table.d tr.topborder td { border-top: solid 1px }
+
+table.c { margin-left: auto; margin-right: auto }
+
+tr.bottomline td { border-bottom: solid 2px }
+
+table.formula-inline { display: inline-table; vertical-align: middle }
+
+table.formula-inline td { text-align: center; vertical-align: middle }
+
+table.formula-inline td.ftop { border-bottom: solid 2px }
+
+table.formula-inline td.ravno { padding-left: 0.2em; padding-right: 0.2em }
+
+table.formula-inline td.empty { padding: 0 }
+
+
+div.flow { text-align: justify }
+
+div.flow p { display: inline }
+
+div.flow p:first-child { padding-left: 1.5em }
+
+
+
+caption { text-transform: uppercase }
+
+caption.sm { font-size: 90%; margin-bottom: 0.1em }
+
+span.doubt, span.small { font-size: 70% }
+
+span.sts { font-size: 250%; position: relative; top: 0.2em; left: -0.1em }
+
+span.norazr { letter-spacing: 0 }
+
+span.boldup { font-weight: bold; text-transform: uppercase }
+
+span.razrup { letter-spacing: 0.2em; text-transform: uppercase }
+
+span.nfonema { padding-left: 0.1em; padding-right: 0.1em }
+
+span.span, span.spannobr { word-spacing: 0.3em }
+
+span.prazr { padding-right: 0.3em }
+
+span.spannobr { white-space: nowrap }
+
+.nobr { white-space: nowrap }
+
+span.ltr { direction: ltr; unicode-bidi: bidi-override }
+
+
+
+div.olist, div.olist2 { counter-reset: ourpoints }
+
+div.olist p, div.olist2 p, div.qlist p { margin-left: 1.5em; text-indent: 0 }
+
+div.olist p:before { counter-increment: ourpoints; content: counter(ourpoints) ")" }
+
+div.olist2 p:before { counter-increment: ourpoints; content: counter(ourpoints) "." }
+
+div.olist p:before, div.olist2 p:before, span.qlist { padding-right: 0.75em }
+
+
+div.body a, a.art { text-decoration: none }
+
+div.body a.i { font-style: italic; text-decoration: none }
+
+div.body a.y { text-decoration: none; letter-spacing: 0.2em }
+
+div.body a.z { text-decoration: none; font-weight: bold }
+
+div.body a:hover, a.art:hover { text-decoration: underline }
+
+a.redir { font-style: italic }
+
+a.art { font-weight: bold }
+
+div.comment p { text-indent: 0; margin-left: 5em; font-size: 80% }
+
+ol.comment { font-size: 80% }
+
+span.double_underline { border-bottom: double 3px }
+
+*[lang=cu] { font-family: bukyvede, kurklim }
+
+table div, video, canvas, iframe { display: none }
+
+#nativeroll_video_cont { display: none }
+
